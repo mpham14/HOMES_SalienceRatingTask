@@ -1,0 +1,231 @@
+2.5170 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.9988 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+17.5788 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe21240a430>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe1df5a4d90>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.5790 	EXP 	window1: mouseVisible = True
+17.5797 	EXP 	window1: mouseVisible = False
+17.5797 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+17.5797 	EXP 	window1: recordFrameIntervals = False
+17.7459 	EXP 	window1: recordFrameIntervals = True
+17.9282 	EXP 	Screen (0) actual frame rate measured at 60.45Hz
+17.9283 	EXP 	window1: recordFrameIntervals = False
+21.8838 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the Nursing Home Experiment', units='height', win=Window(...), wrapWidth=1)
+21.9056 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9184 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9241 	EXP 	Created imageLandmarks = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageLandmarks', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+21.9248 	EXP 	Created salience_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='salience_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9255 	EXP 	Created visualcomplexity_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='visualcomplexity_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9262 	EXP 	Created landmarkName_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='landmarkName_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+21.9445 	EXP 	Created endButton = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endButton', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='continue', units='height', win=Window(...), wrapWidth=1)
+21.9448 	EXP 	window1: mouseVisible = True
+21.9490 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+21.9721 	EXP 	feedbackText: autoLog = True
+21.9721 	EXP 	text: autoDraw = True
+26.9801 	EXP 	text: autoDraw = False
+26.9801 	EXP 	text_3: autoDraw = True
+29.6072 	DATA 	Keypress: space
+29.6193 	EXP 	text_3: autoDraw = False
+29.6193 	EXP 	text_4: autoDraw = True
+31.1125 	EXP 	Imported landmark_stims.xlsx as conditions, 4 conditions, 1 params
+31.1132 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+31.1135 	EXP 	New trial (rep=0, index=0): {'landmark_images': 'images/Landmark3.png'}
+31.1753 	DATA 	Keypress: space
+31.1895 	EXP 	text_4: autoDraw = False
+31.1895 	EXP 	imageLandmarks: image = 'images/Landmark3.png'
+31.1895 	EXP 	imageLandmarks: autoDraw = True
+36.1430 	EXP 	imageLandmarks: autoDraw = False
+36.1430 	EXP 	salience_text: height = 0.05
+36.1430 	EXP 	salience_text: height = 0.05
+36.1430 	EXP 	salience_text: height = 0.05
+36.1430 	EXP 	salience_text: text = 'On a scale of 1 to 5, how salience would you rate the object?'
+36.1430 	EXP 	salience_text: autoDraw = True
+37.3397 	DATA 	Keypress: 2
+37.3521 	EXP 	salience_text: autoDraw = False
+37.3521 	EXP 	visualcomplexity_text: height = 0.05
+37.3521 	EXP 	visualcomplexity_text: height = 0.05
+37.3521 	EXP 	visualcomplexity_text: height = 0.05
+37.3521 	EXP 	visualcomplexity_text: text = 'On a scale of 1 to 5, how visually complex was the object?'
+37.3521 	EXP 	visualcomplexity_text: autoDraw = True
+37.8341 	DATA 	Keypress: 3
+37.8555 	EXP 	visualcomplexity_text: autoDraw = False
+37.8555 	EXP 	landmarkName_text: height = 0.05
+37.8555 	EXP 	landmarkName_text: height = 0.05
+37.8555 	EXP 	landmarkName_text: height = 0.05
+37.8555 	EXP 	landmarkName_text: text = 'What would you name this object?\n'
+37.8555 	EXP 	landmarkName_text: autoDraw = True
+37.8555 	EXP 	feedbackText: autoDraw = True
+37.8555 	EXP 	endButton: autoDraw = True
+39.0461 	DATA 	Keypress: backspace
+40.4343 	DATA 	Keypress: p
+40.5541 	DATA 	Keypress: l
+40.6549 	DATA 	Keypress: a
+40.7739 	DATA 	Keypress: s
+41.6931 	DATA 	Keypress: t
+41.9783 	DATA 	Keypress: i
+42.0398 	DATA 	Keypress: c
+42.2923 	DATA 	Keypress: space
+43.3616 	DATA 	Keypress: backspace
+43.5153 	DATA 	Keypress: backspace
+43.6511 	DATA 	Keypress: backspace
+43.8194 	DATA 	Keypress: backspace
+45.3943 	DATA 	Keypress: r
+45.5370 	DATA 	Keypress: e
+45.7891 	DATA 	Keypress: d
+45.8298 	DATA 	Keypress: space
+46.1037 	DATA 	Keypress: p
+46.2181 	DATA 	Keypress: l
+46.4658 	DATA 	Keypress: a
+46.6033 	DATA 	Keypress: s
+47.0283 	DATA 	Keypress: t
+47.2177 	DATA 	Keypress: i
+47.3666 	DATA 	Keypress: c
+47.5976 	DATA 	Keypress: e
+47.9965 	DATA 	Keypress: backspace
+48.1704 	DATA 	Keypress: space
+48.9124 	DATA 	Keypress: c
+49.0471 	DATA 	Keypress: r
+49.2594 	DATA 	Keypress: a
+49.5008 	DATA 	Keypress: t
+49.6730 	DATA 	Keypress: e
+50.9336 	DATA 	Mouse: Left button down, pos=(838,194)
+50.9343 	DATA 	Mouse:  Left button up, pos=(838,194)
+52.3459 	DATA 	Mouse: Left button down, pos=(838,194)
+52.3464 	DATA 	Mouse:  Left button up, pos=(838,194)
+53.0815 	DATA 	Mouse: Left button down, pos=(859,210)
+53.0845 	EXP 	New trial (rep=0, index=1): {'landmark_images': 'images/Landmark2.png'}
+53.1124 	EXP 	landmarkName_text: autoDraw = False
+53.1124 	EXP 	feedbackText: autoDraw = False
+53.1124 	EXP 	endButton: autoDraw = False
+53.1124 	EXP 	imageLandmarks: image = 'images/Landmark2.png'
+53.1124 	EXP 	imageLandmarks: autoDraw = True
+53.2064 	DATA 	Mouse:  Left button up, pos=(859,210)
+58.0996 	EXP 	imageLandmarks: autoDraw = False
+58.0996 	EXP 	salience_text: text = 'On a scale of 1 to 5, how salience would you rate the object?'
+58.0996 	EXP 	salience_text: autoDraw = True
+63.4122 	DATA 	Keypress: 3
+63.4232 	EXP 	salience_text: autoDraw = False
+63.4232 	EXP 	visualcomplexity_text: text = 'On a scale of 1 to 5, how visually complex was the object?'
+63.4232 	EXP 	visualcomplexity_text: autoDraw = True
+64.0789 	DATA 	Keypress: 3
+64.0955 	EXP 	visualcomplexity_text: autoDraw = False
+64.0955 	EXP 	landmarkName_text: text = 'What would you name this object?\n'
+64.0955 	EXP 	landmarkName_text: autoDraw = True
+64.0955 	EXP 	feedbackText: autoDraw = True
+64.0955 	EXP 	endButton: autoDraw = True
+65.0979 	DATA 	Keypress: backspace
+66.4482 	DATA 	Keypress: w
+66.5808 	DATA 	Keypress: o
+66.7315 	DATA 	Keypress: o
+66.8655 	DATA 	Keypress: d
+67.1320 	DATA 	Keypress: e
+67.3172 	DATA 	Keypress: n
+71.5976 	DATA 	Keypress: space
+71.9160 	DATA 	Keypress: p
+72.0906 	DATA 	Keypress: c
+72.2669 	DATA 	Keypress: i
+73.0477 	DATA 	Keypress: backspace
+73.2481 	DATA 	Keypress: backspace
+73.5795 	DATA 	Keypress: i
+73.7927 	DATA 	Keypress: c
+74.5832 	DATA 	Keypress: n
+74.7217 	DATA 	Keypress: i
+74.8916 	DATA 	Keypress: c
+75.4204 	DATA 	Keypress: space
+75.8732 	DATA 	Keypress: b
+75.9741 	DATA 	Keypress: a
+76.0893 	DATA 	Keypress: s
+76.2074 	DATA 	Keypress: k
+76.4018 	DATA 	Keypress: e
+76.5979 	DATA 	Keypress: r
+77.5056 	DATA 	Keypress: backspace
+77.7151 	DATA 	Keypress: t
+78.7105 	DATA 	Mouse: Left button down, pos=(866,193)
+78.7128 	EXP 	New trial (rep=0, index=2): {'landmark_images': 'images/Landmark4.png'}
+78.7357 	EXP 	landmarkName_text: autoDraw = False
+78.7357 	EXP 	feedbackText: autoDraw = False
+78.7357 	EXP 	endButton: autoDraw = False
+78.7357 	EXP 	imageLandmarks: image = 'images/Landmark4.png'
+78.7357 	EXP 	imageLandmarks: autoDraw = True
+78.8093 	DATA 	Mouse:  Left button up, pos=(866,193)
+83.7327 	EXP 	imageLandmarks: autoDraw = False
+83.7327 	EXP 	salience_text: text = 'On a scale of 1 to 5, how salience would you rate the object?'
+83.7327 	EXP 	salience_text: autoDraw = True
+86.1518 	DATA 	Keypress: 2
+86.1688 	EXP 	salience_text: autoDraw = False
+86.1688 	EXP 	visualcomplexity_text: text = 'On a scale of 1 to 5, how visually complex was the object?'
+86.1688 	EXP 	visualcomplexity_text: autoDraw = True
+87.5220 	DATA 	Keypress: 3
+87.5371 	EXP 	visualcomplexity_text: autoDraw = False
+87.5371 	EXP 	landmarkName_text: text = 'What would you name this object?\n'
+87.5371 	EXP 	landmarkName_text: autoDraw = True
+87.5371 	EXP 	feedbackText: autoDraw = True
+87.5371 	EXP 	endButton: autoDraw = True
+88.3876 	DATA 	Keypress: backspace
+89.0209 	DATA 	Keypress: w
+89.1434 	DATA 	Keypress: i
+89.2983 	DATA 	Keypress: c
+89.4654 	DATA 	Keypress: k
+89.5639 	DATA 	Keypress: e
+89.7344 	DATA 	Keypress: r
+89.9181 	DATA 	Keypress: space
+90.8996 	DATA 	Keypress: l
+91.0335 	DATA 	Keypress: a
+91.2517 	DATA 	Keypress: u
+91.3826 	DATA 	Keypress: n
+91.5001 	DATA 	Keypress: d
+91.7051 	DATA 	Keypress: e
+91.8553 	DATA 	Keypress: r
+92.3437 	DATA 	Keypress: backspace
+92.5657 	DATA 	Keypress: backspace
+92.7208 	DATA 	Keypress: t
+93.3915 	DATA 	Keypress: backspace
+93.7148 	DATA 	Keypress: r
+93.9514 	DATA 	Keypress: y
+94.1010 	DATA 	Keypress: space
+94.8767 	DATA 	Keypress: h
+95.0001 	DATA 	Keypress: a
+95.2174 	DATA 	Keypress: m
+95.3865 	DATA 	Keypress: p
+95.5291 	DATA 	Keypress: e
+95.6591 	DATA 	Keypress: r
+96.5576 	DATA 	Mouse: Left button down, pos=(845,215)
+96.5743 	EXP 	New trial (rep=0, index=3): {'landmark_images': 'images/Landmark1.png'}
+96.6001 	EXP 	landmarkName_text: autoDraw = False
+96.6001 	EXP 	feedbackText: autoDraw = False
+96.6001 	EXP 	endButton: autoDraw = False
+96.6001 	EXP 	imageLandmarks: image = 'images/Landmark1.png'
+96.6001 	EXP 	imageLandmarks: autoDraw = True
+96.6588 	DATA 	Mouse:  Left button up, pos=(845,215)
+101.6020 	EXP 	imageLandmarks: autoDraw = False
+101.6020 	EXP 	salience_text: text = 'On a scale of 1 to 5, how salience would you rate the object?'
+101.6020 	EXP 	salience_text: autoDraw = True
+107.3326 	DATA 	Keypress: 2
+107.3460 	EXP 	salience_text: autoDraw = False
+107.3460 	EXP 	visualcomplexity_text: text = 'On a scale of 1 to 5, how visually complex was the object?'
+107.3460 	EXP 	visualcomplexity_text: autoDraw = True
+107.7988 	DATA 	Keypress: 2
+107.8162 	EXP 	visualcomplexity_text: autoDraw = False
+107.8162 	EXP 	landmarkName_text: text = 'What would you name this object?\n'
+107.8162 	EXP 	landmarkName_text: autoDraw = True
+107.8162 	EXP 	feedbackText: autoDraw = True
+107.8162 	EXP 	endButton: autoDraw = True
+108.7270 	DATA 	Keypress: backspace
+109.2889 	DATA 	Keypress: m
+109.4227 	DATA 	Keypress: e
+109.7236 	DATA 	Keypress: t
+109.9885 	DATA 	Keypress: a
+110.1436 	DATA 	Keypress: l
+110.2955 	DATA 	Keypress: space
+110.9603 	DATA 	Keypress: c
+111.1588 	DATA 	Keypress: a
+111.3865 	DATA 	Keypress: g
+111.5448 	DATA 	Keypress: e
+112.7929 	DATA 	Mouse: Left button down, pos=(823,206)
+112.7934 	DATA 	Mouse:  Left button up, pos=(823,206)
+113.2094 	DATA 	Mouse: Left button down, pos=(823,206)
+113.2393 	EXP 	landmarkName_text: autoDraw = False
+113.2393 	EXP 	feedbackText: autoDraw = False
+113.2393 	EXP 	endButton: autoDraw = False
+113.2393 	EXP 	text_2: autoDraw = True
+113.3431 	DATA 	Mouse:  Left button up, pos=(823,206)
+118.2456 	EXP 	text_2: autoDraw = False
+118.7942 	EXP 	window1: mouseVisible = True

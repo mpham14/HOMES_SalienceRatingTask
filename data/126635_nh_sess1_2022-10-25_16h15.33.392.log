@@ -1,0 +1,128 @@
+2.1613 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.8266 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+9.8532 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f867f04f3d0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f864cf61b50>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.8534 	EXP 	window1: mouseVisible = True
+9.8546 	EXP 	window1: mouseVisible = False
+9.8546 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.8546 	EXP 	window1: recordFrameIntervals = False
+10.0218 	EXP 	window1: recordFrameIntervals = True
+10.5962 	WARNING 	t of last frame was 25.71ms (=1/38)
+10.7849 	EXP 	Screen (0) actual frame rate measured at 59.10Hz
+10.7850 	EXP 	window1: recordFrameIntervals = False
+14.2348 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the Nursing Home Experiment', units='height', win=Window(...), wrapWidth=1)
+14.2625 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.2760 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.2826 	EXP 	Created imageLandmarks = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageLandmarks', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+14.2886 	EXP 	Created salience_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='salience_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.2927 	EXP 	Created visualcomplexity_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='visualcomplexity_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.2965 	EXP 	Created landmarkName_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='landmarkName_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='What would you name this object?\n', units='height', win=Window(...), wrapWidth=1)
+14.2974 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.3022 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.3186 	EXP 	text: autoDraw = True
+19.3310 	EXP 	text: autoDraw = False
+19.3310 	EXP 	text_3: autoDraw = True
+20.9530 	DATA 	Keypress: 2
+22.2004 	DATA 	Keypress: space
+22.2130 	EXP 	text_3: autoDraw = False
+22.2130 	EXP 	text_4: autoDraw = True
+23.6145 	EXP 	Imported landmark_stims.xlsx as conditions, 15 conditions, 1 params
+23.6157 	EXP 	Created sequence: random, trialTypes=15, nReps=1, seed=None
+23.6162 	EXP 	New trial (rep=0, index=0): {'landmark_images': 'images/Landmark13.png'}
+23.6966 	DATA 	Keypress: space
+23.7093 	EXP 	text_4: autoDraw = False
+23.7093 	EXP 	imageLandmarks: image = 'images/Landmark13.png'
+23.7093 	EXP 	imageLandmarks: autoDraw = True
+28.6143 	EXP 	imageLandmarks: autoDraw = False
+28.6143 	EXP 	salience_text: autoDraw = True
+30.9114 	DATA 	Keypress: 2
+30.9226 	EXP 	salience_text: autoDraw = False
+30.9226 	EXP 	visualcomplexity_text: autoDraw = True
+31.7922 	DATA 	Keypress: 3
+31.8041 	EXP 	visualcomplexity_text: autoDraw = False
+31.8041 	EXP 	landmarkName_text: autoDraw = True
+31.8041 	EXP 	text_5: autoDraw = True
+31.8041 	EXP 	text_5: height = 0.05
+31.8041 	EXP 	text_5: height = 0.05
+31.8041 	EXP 	text_5: height = 0.05
+31.8041 	EXP 	text_5: text = ''
+32.8853 	DATA 	Keypress: rshift
+33.3011 	DATA 	Keypress: n
+34.7278 	DATA 	Keypress: slash
+37.6829 	DATA 	Keypress: a
+38.6685 	DATA 	Keypress: return
+40.8617 	EXP 	New trial (rep=0, index=1): {'landmark_images': 'images/Landmark14.png'}
+40.8794 	DATA 	Keypress: s
+40.8942 	EXP 	landmarkName_text: autoDraw = False
+40.8942 	EXP 	text_5: autoDraw = False
+40.8942 	EXP 	imageLandmarks: image = 'images/Landmark14.png'
+40.8942 	EXP 	imageLandmarks: autoDraw = True
+45.8816 	EXP 	imageLandmarks: autoDraw = False
+45.8816 	EXP 	salience_text: autoDraw = True
+47.3083 	DATA 	Keypress: 2
+47.3200 	EXP 	salience_text: autoDraw = False
+47.3200 	EXP 	visualcomplexity_text: autoDraw = True
+48.4058 	DATA 	Keypress: 3
+48.4174 	EXP 	visualcomplexity_text: autoDraw = False
+48.4174 	EXP 	landmarkName_text: autoDraw = True
+48.4174 	EXP 	text_5: autoDraw = True
+51.4941 	DATA 	Keypress: 4
+51.9473 	DATA 	Keypress: 3
+52.1436 	DATA 	Keypress: 2
+53.5062 	DATA 	Keypress: rshift
+53.6685 	DATA 	Keypress: t
+53.9453 	DATA 	Keypress: i
+54.1463 	DATA 	Keypress: m
+55.0038 	DATA 	Keypress: e
+57.1009 	DATA 	Keypress: o
+57.2732 	DATA 	Keypress: u
+57.4777 	DATA 	Keypress: t
+57.9917 	DATA 	Keypress: return
+58.0095 	EXP 	New trial (rep=0, index=2): {'landmark_images': 'images/Landmark10.png'}
+58.0364 	EXP 	landmarkName_text: autoDraw = False
+58.0364 	EXP 	text_5: autoDraw = False
+58.0364 	EXP 	imageLandmarks: image = 'images/Landmark10.png'
+58.0364 	EXP 	imageLandmarks: autoDraw = True
+63.0279 	EXP 	imageLandmarks: autoDraw = False
+63.0279 	EXP 	salience_text: autoDraw = True
+72.2678 	DATA 	Keypress: 2
+72.2796 	EXP 	salience_text: autoDraw = False
+72.2796 	EXP 	visualcomplexity_text: autoDraw = True
+72.6134 	DATA 	Keypress: 3
+72.6248 	EXP 	visualcomplexity_text: autoDraw = False
+72.6248 	EXP 	landmarkName_text: autoDraw = True
+72.6248 	EXP 	text_5: autoDraw = True
+74.9628 	DATA 	Keypress: i
+75.0972 	DATA 	Keypress: d
+75.2271 	DATA 	Keypress: k
+76.5975 	DATA 	Keypress: space
+77.1352 	DATA 	Keypress: space
+81.4355 	DATA 	Keypress: space
+82.6545 	DATA 	Keypress: space
+83.1188 	DATA 	Keypress: d
+83.4274 	DATA 	Keypress: d
+83.6827 	DATA 	Keypress: d
+84.0108 	DATA 	Keypress: s
+84.2504 	DATA 	Keypress: d
+84.3830 	DATA 	Keypress: s
+84.5181 	DATA 	Keypress: d
+84.7172 	DATA 	Keypress: f
+84.9370 	DATA 	Keypress: f
+85.1813 	DATA 	Keypress: f
+85.4566 	DATA 	Keypress: return
+86.1434 	DATA 	Keypress: return
+86.7884 	DATA 	Keypress: return
+87.5723 	DATA 	Keypress: return
+88.0466 	DATA 	Keypress: return
+88.3355 	DATA 	Keypress: return
+88.5594 	DATA 	Keypress: return
+89.3532 	DATA 	Keypress: backspace
+89.5568 	DATA 	Keypress: backspace
+89.7233 	DATA 	Keypress: backspace
+89.9126 	DATA 	Keypress: backspace
+90.8361 	DATA 	Keypress: backspace
+91.0358 	DATA 	Keypress: backspace
+91.2516 	DATA 	Keypress: backspace
+91.4993 	DATA 	Keypress: backspace
+91.7564 	DATA 	Keypress: backspace
+95.5740 	DATA 	Keypress: escape
+96.7794 	EXP 	window1: mouseVisible = True

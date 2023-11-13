@@ -1,0 +1,566 @@
+3.1763 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.6330 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+14.4499 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdddc86b430>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdda9e5cac0>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.4501 	EXP 	window1: mouseVisible = True
+14.4508 	EXP 	window1: mouseVisible = False
+14.4508 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.4508 	EXP 	window1: recordFrameIntervals = False
+14.6173 	EXP 	window1: recordFrameIntervals = True
+15.1119 	EXP 	Screen (0) actual frame rate measured at 61.56Hz
+15.1119 	EXP 	window1: recordFrameIntervals = False
+18.6649 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the Nursing Home Experiment', units='height', win=Window(...), wrapWidth=1)
+18.6980 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.7184 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.7989 	EXP 	Created imageLandmarks = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageLandmarks', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+18.8074 	EXP 	Created salience_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='salience_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.8120 	EXP 	Created visualcomplexity_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='visualcomplexity_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.8167 	EXP 	Created landmarkName_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='landmarkName_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='What would you name this object?\n', units='height', win=Window(...), wrapWidth=1)
+18.8176 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.8238 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.8532 	EXP 	text: autoDraw = True
+23.8498 	EXP 	text: autoDraw = False
+23.8498 	EXP 	text_3: autoDraw = True
+24.9891 	EXP 	text_3: autoDraw = False
+24.9891 	EXP 	text_4: autoDraw = True
+25.0020 	DATA 	Keypress: space
+25.6079 	EXP 	Imported landmark_stims.xlsx as conditions, 15 conditions, 1 params
+25.6118 	EXP 	Created sequence: random, trialTypes=15, nReps=1, seed=None
+25.6125 	EXP 	New trial (rep=0, index=0): {'landmark_images': 'images/Landmark12.png'}
+25.6680 	DATA 	Keypress: space
+25.6829 	EXP 	text_4: autoDraw = False
+25.6829 	EXP 	imageLandmarks: image = 'images/Landmark12.png'
+25.6829 	EXP 	imageLandmarks: autoDraw = True
+30.6180 	EXP 	imageLandmarks: autoDraw = False
+30.6180 	EXP 	salience_text: autoDraw = True
+32.4246 	DATA 	Keypress: 2
+32.4355 	EXP 	salience_text: autoDraw = False
+32.4355 	EXP 	visualcomplexity_text: autoDraw = True
+32.8934 	DATA 	Keypress: 3
+32.9049 	EXP 	visualcomplexity_text: autoDraw = False
+32.9049 	EXP 	landmarkName_text: autoDraw = True
+32.9049 	EXP 	text_5: autoDraw = True
+32.9049 	EXP 	text_5: height = 0.05
+32.9049 	EXP 	text_5: height = 0.05
+32.9049 	EXP 	text_5: height = 0.05
+32.9049 	EXP 	text_5: text = ''
+35.9743 	DATA 	Keypress: w
+36.0320 	DATA 	Keypress: i
+36.1916 	DATA 	Keypress: c
+36.3126 	DATA 	Keypress: k
+36.4032 	DATA 	Keypress: e
+36.5077 	DATA 	Keypress: r
+36.6483 	DATA 	Keypress: space
+37.2958 	DATA 	Keypress: b
+37.4033 	DATA 	Keypress: a
+37.6155 	DATA 	Keypress: s
+37.8285 	DATA 	Keypress: k
+38.0478 	DATA 	Keypress: e
+38.1524 	DATA 	Keypress: r
+38.6924 	DATA 	Keypress: backspace
+38.8758 	DATA 	Keypress: backspace
+39.0202 	DATA 	Keypress: backspace
+39.1777 	DATA 	Keypress: backspace
+39.3148 	DATA 	Keypress: backspace
+39.4739 	DATA 	Keypress: backspace
+40.2488 	DATA 	Keypress: b
+40.4645 	DATA 	Keypress: o
+40.7628 	DATA 	Keypress: x
+40.9382 	EXP 	New trial (rep=0, index=1): {'landmark_images': 'images/Landmark10.png'}
+40.9499 	DATA 	Keypress: return
+40.9625 	EXP 	landmarkName_text: autoDraw = False
+40.9625 	EXP 	text_5: autoDraw = False
+40.9625 	EXP 	imageLandmarks: image = 'images/Landmark10.png'
+40.9625 	EXP 	imageLandmarks: autoDraw = True
+45.9600 	EXP 	imageLandmarks: autoDraw = False
+45.9600 	EXP 	salience_text: autoDraw = True
+50.1408 	DATA 	Keypress: 2
+50.1523 	EXP 	salience_text: autoDraw = False
+50.1523 	EXP 	visualcomplexity_text: autoDraw = True
+50.4605 	DATA 	Keypress: 2
+50.4721 	EXP 	visualcomplexity_text: autoDraw = False
+50.4721 	EXP 	landmarkName_text: autoDraw = True
+50.4721 	EXP 	text_5: autoDraw = True
+51.5772 	DATA 	Keypress: g
+51.7191 	DATA 	Keypress: r
+51.9610 	DATA 	Keypress: e
+52.1016 	DATA 	Keypress: e
+52.1905 	DATA 	Keypress: n
+52.3107 	DATA 	Keypress: space
+53.3627 	DATA 	Keypress: h
+53.5092 	DATA 	Keypress: e
+53.8268 	DATA 	Keypress: r
+54.0499 	DATA 	Keypress: t
+54.7588 	DATA 	Keypress: backspace
+54.9131 	DATA 	Keypress: backspace
+55.0186 	DATA 	Keypress: a
+55.3097 	DATA 	Keypress: t
+55.5167 	DATA 	Keypress: space
+56.1121 	DATA 	Keypress: backspace
+56.2674 	DATA 	Keypress: backspace
+56.3235 	DATA 	Keypress: r
+56.4805 	DATA 	Keypress: t
+56.6415 	DATA 	Keypress: space
+57.6782 	DATA 	Keypress: b
+57.7317 	DATA 	Keypress: a
+57.8774 	DATA 	Keypress: s
+57.9824 	DATA 	Keypress: k
+58.1519 	DATA 	Keypress: e
+58.3091 	DATA 	Keypress: r
+58.8473 	DATA 	Keypress: backspace
+58.9680 	DATA 	Keypress: t
+59.1616 	EXP 	New trial (rep=0, index=2): {'landmark_images': 'images/Landmark1.png'}
+59.1747 	DATA 	Keypress: return
+59.1885 	EXP 	landmarkName_text: autoDraw = False
+59.1885 	EXP 	text_5: autoDraw = False
+59.1885 	EXP 	imageLandmarks: image = 'images/Landmark1.png'
+59.1885 	EXP 	imageLandmarks: autoDraw = True
+64.1826 	EXP 	imageLandmarks: autoDraw = False
+64.1826 	EXP 	salience_text: autoDraw = True
+67.4205 	DATA 	Keypress: 2
+67.4320 	EXP 	salience_text: autoDraw = False
+67.4320 	EXP 	visualcomplexity_text: autoDraw = True
+67.9064 	DATA 	Keypress: 3
+67.9175 	EXP 	visualcomplexity_text: autoDraw = False
+67.9175 	EXP 	landmarkName_text: autoDraw = True
+67.9175 	EXP 	text_5: autoDraw = True
+77.9771 	DATA 	Keypress: i
+78.1365 	DATA 	Keypress: d
+78.2787 	DATA 	Keypress: k
+78.7762 	EXP 	New trial (rep=0, index=3): {'landmark_images': 'images/Landmark13.png'}
+78.7899 	DATA 	Keypress: return
+78.8041 	EXP 	landmarkName_text: autoDraw = False
+78.8041 	EXP 	text_5: autoDraw = False
+78.8041 	EXP 	imageLandmarks: image = 'images/Landmark13.png'
+78.8041 	EXP 	imageLandmarks: autoDraw = True
+83.8029 	EXP 	imageLandmarks: autoDraw = False
+83.8029 	EXP 	salience_text: autoDraw = True
+86.8643 	DATA 	Keypress: 4
+86.8760 	EXP 	salience_text: autoDraw = False
+86.8760 	EXP 	visualcomplexity_text: autoDraw = True
+88.1918 	DATA 	Keypress: 4
+88.2027 	EXP 	visualcomplexity_text: autoDraw = False
+88.2027 	EXP 	landmarkName_text: autoDraw = True
+88.2027 	EXP 	text_5: autoDraw = True
+90.5992 	DATA 	Keypress: t
+90.7137 	DATA 	Keypress: o
+90.8331 	DATA 	Keypress: t
+91.6886 	DATA 	Keypress: e
+92.9190 	DATA 	Keypress: backspace
+93.1093 	DATA 	Keypress: backspace
+93.2943 	DATA 	Keypress: backspace
+93.4447 	DATA 	Keypress: backspace
+94.2840 	DATA 	Keypress: t
+94.4803 	DATA 	Keypress: o
+94.6414 	DATA 	Keypress: t
+94.8852 	DATA 	Keypress: e
+95.0295 	DATA 	Keypress: space
+97.0918 	DATA 	Keypress: backspace
+97.2482 	DATA 	Keypress: backspace
+97.3926 	DATA 	Keypress: backspace
+97.5650 	DATA 	Keypress: backspace
+97.7327 	DATA 	Keypress: backspace
+98.1954 	DATA 	Keypress: s
+98.4258 	DATA 	Keypress: t
+98.5684 	DATA 	Keypress: r
+98.7097 	DATA 	Keypress: u
+98.8383 	DATA 	Keypress: c
+98.9640 	DATA 	Keypress: k
+99.8674 	DATA 	Keypress: backspace
+100.4981 	DATA 	Keypress: t
+100.6064 	DATA 	Keypress: u
+100.7468 	DATA 	Keypress: r
+100.9050 	DATA 	Keypress: e
+101.2156 	DATA 	Keypress: d
+101.4066 	DATA 	Keypress: space
+102.1339 	DATA 	Keypress: t
+102.2424 	DATA 	Keypress: o
+102.3986 	DATA 	Keypress: t
+102.8434 	DATA 	Keypress: e
+103.0189 	DATA 	Keypress: space
+103.3474 	DATA 	Keypress: b
+103.4562 	DATA 	Keypress: a
+103.7980 	DATA 	Keypress: g
+104.6950 	EXP 	New trial (rep=0, index=4): {'landmark_images': 'images/Landmark3.png'}
+104.7080 	DATA 	Keypress: return
+104.7225 	EXP 	landmarkName_text: autoDraw = False
+104.7225 	EXP 	text_5: autoDraw = False
+104.7225 	EXP 	imageLandmarks: image = 'images/Landmark3.png'
+104.7225 	EXP 	imageLandmarks: autoDraw = True
+109.7157 	EXP 	imageLandmarks: autoDraw = False
+109.7157 	EXP 	salience_text: autoDraw = True
+111.5397 	DATA 	Keypress: 3
+111.5504 	EXP 	salience_text: autoDraw = False
+111.5504 	EXP 	visualcomplexity_text: autoDraw = True
+111.7938 	DATA 	Keypress: 3
+111.8061 	EXP 	visualcomplexity_text: autoDraw = False
+111.8061 	EXP 	landmarkName_text: autoDraw = True
+111.8061 	EXP 	text_5: autoDraw = True
+112.7648 	DATA 	Keypress: r
+112.8400 	DATA 	Keypress: e
+113.0303 	DATA 	Keypress: d
+113.2250 	DATA 	Keypress: space
+116.1929 	DATA 	Keypress: s
+116.3341 	DATA 	Keypress: h
+116.5422 	DATA 	Keypress: o
+116.7158 	DATA 	Keypress: p
+116.9245 	DATA 	Keypress: p
+117.1286 	DATA 	Keypress: o
+117.7388 	DATA 	Keypress: backspace
+118.3599 	DATA 	Keypress: i
+118.4829 	DATA 	Keypress: n
+118.5721 	DATA 	Keypress: g
+118.7463 	DATA 	Keypress: space
+119.5715 	DATA 	Keypress: b
+119.9148 	DATA 	Keypress: a
+120.2581 	DATA 	Keypress: s
+120.4166 	DATA 	Keypress: k
+120.5885 	DATA 	Keypress: e
+120.8135 	DATA 	Keypress: t
+121.3749 	EXP 	New trial (rep=0, index=5): {'landmark_images': 'images/Landmark8.png'}
+121.3871 	DATA 	Keypress: return
+121.4005 	EXP 	landmarkName_text: autoDraw = False
+121.4005 	EXP 	text_5: autoDraw = False
+121.4005 	EXP 	imageLandmarks: image = 'images/Landmark8.png'
+121.4005 	EXP 	imageLandmarks: autoDraw = True
+126.3901 	EXP 	imageLandmarks: autoDraw = False
+126.3901 	EXP 	salience_text: autoDraw = True
+127.4055 	DATA 	Keypress: 3
+127.4170 	EXP 	salience_text: autoDraw = False
+127.4170 	EXP 	visualcomplexity_text: autoDraw = True
+127.8739 	DATA 	Keypress: 3
+127.8856 	EXP 	visualcomplexity_text: autoDraw = False
+127.8856 	EXP 	landmarkName_text: autoDraw = True
+127.8856 	EXP 	text_5: autoDraw = True
+128.7757 	DATA 	Keypress: g
+128.8997 	DATA 	Keypress: r
+129.3594 	DATA 	Keypress: a
+129.5506 	DATA 	Keypress: y
+129.7268 	DATA 	Keypress: space
+130.4426 	DATA 	Keypress: l
+130.5985 	DATA 	Keypress: a
+130.7395 	DATA 	Keypress: i
+130.8747 	DATA 	Keypress: n
+131.0631 	DATA 	Keypress: f
+131.4680 	DATA 	Keypress: backspace
+131.6085 	DATA 	Keypress: backspace
+131.7626 	DATA 	Keypress: backspace
+131.9003 	DATA 	Keypress: backspace
+132.6080 	DATA 	Keypress: a
+132.7485 	DATA 	Keypress: u
+132.8722 	DATA 	Keypress: n
+133.0278 	DATA 	Keypress: d
+133.3012 	DATA 	Keypress: r
+133.4455 	DATA 	Keypress: y
+133.6013 	DATA 	Keypress: space
+134.3131 	DATA 	Keypress: b
+134.4199 	DATA 	Keypress: a
+134.5277 	DATA 	Keypress: s
+134.6843 	DATA 	Keypress: k
+134.9598 	DATA 	Keypress: e
+135.1339 	DATA 	Keypress: t
+135.5108 	EXP 	New trial (rep=0, index=6): {'landmark_images': 'images/Landmark6.png'}
+135.5256 	DATA 	Keypress: return
+135.5378 	EXP 	landmarkName_text: autoDraw = False
+135.5378 	EXP 	text_5: autoDraw = False
+135.5378 	EXP 	imageLandmarks: image = 'images/Landmark6.png'
+135.5378 	EXP 	imageLandmarks: autoDraw = True
+140.5320 	EXP 	imageLandmarks: autoDraw = False
+140.5320 	EXP 	salience_text: autoDraw = True
+408.0719 	DATA 	Keypress: 3
+408.0839 	EXP 	salience_text: autoDraw = False
+408.0839 	EXP 	visualcomplexity_text: autoDraw = True
+408.4154 	DATA 	Keypress: 3
+408.4273 	EXP 	visualcomplexity_text: autoDraw = False
+408.4273 	EXP 	landmarkName_text: autoDraw = True
+408.4273 	EXP 	text_5: autoDraw = True
+410.1882 	DATA 	Keypress: i
+410.3654 	DATA 	Keypress: d
+410.4555 	DATA 	Keypress: k
+410.6947 	EXP 	New trial (rep=0, index=7): {'landmark_images': 'images/Landmark7.png'}
+410.7103 	DATA 	Keypress: return
+410.7233 	EXP 	landmarkName_text: autoDraw = False
+410.7233 	EXP 	text_5: autoDraw = False
+410.7233 	EXP 	imageLandmarks: image = 'images/Landmark7.png'
+410.7233 	EXP 	imageLandmarks: autoDraw = True
+415.7225 	EXP 	imageLandmarks: autoDraw = False
+415.7225 	EXP 	salience_text: autoDraw = True
+421.0847 	DATA 	Keypress: 2
+421.0952 	EXP 	salience_text: autoDraw = False
+421.0952 	EXP 	visualcomplexity_text: autoDraw = True
+421.9362 	DATA 	Keypress: 3
+421.9472 	EXP 	visualcomplexity_text: autoDraw = False
+421.9472 	EXP 	landmarkName_text: autoDraw = True
+421.9472 	EXP 	text_5: autoDraw = True
+424.1845 	DATA 	Keypress: v
+424.3109 	DATA 	Keypress: i
+424.4026 	DATA 	Keypress: c
+424.5094 	DATA 	Keypress: k
+424.6437 	DATA 	Keypress: e
+424.7853 	DATA 	Keypress: r
+424.8422 	DATA 	Keypress: space
+425.2354 	DATA 	Keypress: b
+425.3887 	DATA 	Keypress: a
+425.5424 	DATA 	Keypress: s
+425.6382 	DATA 	Keypress: k
+425.8349 	DATA 	Keypress: e
+426.0611 	DATA 	Keypress: t
+426.2724 	EXP 	New trial (rep=0, index=8): {'landmark_images': 'images/Landmark5.png'}
+426.2967 	DATA 	Keypress: return
+426.3097 	EXP 	landmarkName_text: autoDraw = False
+426.3097 	EXP 	text_5: autoDraw = False
+426.3097 	EXP 	imageLandmarks: image = 'images/Landmark5.png'
+426.3097 	EXP 	imageLandmarks: autoDraw = True
+431.2881 	EXP 	imageLandmarks: autoDraw = False
+431.2881 	EXP 	salience_text: autoDraw = True
+434.5185 	DATA 	Keypress: 3
+434.5309 	EXP 	salience_text: autoDraw = False
+434.5309 	EXP 	visualcomplexity_text: autoDraw = True
+435.1534 	DATA 	Keypress: 4
+435.1638 	EXP 	visualcomplexity_text: autoDraw = False
+435.1638 	EXP 	landmarkName_text: autoDraw = True
+435.1638 	EXP 	text_5: autoDraw = True
+436.6392 	DATA 	Keypress: g
+436.7847 	DATA 	Keypress: r
+437.5853 	DATA 	Keypress: e
+437.9385 	DATA 	Keypress: y
+438.0924 	DATA 	Keypress: space
+438.8265 	DATA 	Keypress: w
+438.9352 	DATA 	Keypress: i
+439.0410 	DATA 	Keypress: c
+439.1447 	DATA 	Keypress: k
+439.2372 	DATA 	Keypress: e
+439.3607 	DATA 	Keypress: r
+439.5186 	DATA 	Keypress: space
+439.9893 	DATA 	Keypress: b
+440.0805 	DATA 	Keypress: a
+440.2219 	DATA 	Keypress: s
+440.3603 	DATA 	Keypress: k
+440.5184 	DATA 	Keypress: e
+440.7249 	DATA 	Keypress: t
+441.4056 	DATA 	Keypress: return
+441.4226 	EXP 	New trial (rep=0, index=9): {'landmark_images': 'images/Landmark4.png'}
+441.4440 	EXP 	landmarkName_text: autoDraw = False
+441.4440 	EXP 	text_5: autoDraw = False
+441.4440 	EXP 	imageLandmarks: image = 'images/Landmark4.png'
+441.4440 	EXP 	imageLandmarks: autoDraw = True
+446.4452 	EXP 	imageLandmarks: autoDraw = False
+446.4452 	EXP 	salience_text: autoDraw = True
+448.0193 	DATA 	Keypress: 3
+448.0309 	EXP 	salience_text: autoDraw = False
+448.0309 	EXP 	visualcomplexity_text: autoDraw = True
+448.2255 	DATA 	Keypress: 4
+448.2372 	EXP 	visualcomplexity_text: autoDraw = False
+448.2372 	EXP 	landmarkName_text: autoDraw = True
+448.2372 	EXP 	text_5: autoDraw = True
+449.1041 	DATA 	Keypress: w
+449.1774 	DATA 	Keypress: i
+449.3184 	DATA 	Keypress: c
+449.4049 	DATA 	Keypress: k
+449.5087 	DATA 	Keypress: e
+449.6793 	DATA 	Keypress: r
+449.8095 	DATA 	Keypress: space
+450.1846 	DATA 	Keypress: l
+450.3899 	DATA 	Keypress: a
+450.5583 	DATA 	Keypress: u
+450.6626 	DATA 	Keypress: n
+450.8031 	DATA 	Keypress: d
+451.0401 	DATA 	Keypress: r
+451.2130 	DATA 	Keypress: y
+451.3362 	DATA 	Keypress: space
+451.8243 	DATA 	Keypress: h
+451.9826 	DATA 	Keypress: a
+452.1072 	DATA 	Keypress: m
+452.2952 	DATA 	Keypress: p
+452.4513 	DATA 	Keypress: e
+452.6094 	DATA 	Keypress: r
+452.9516 	EXP 	New trial (rep=0, index=10): {'landmark_images': 'images/Landmark15.png'}
+452.9644 	DATA 	Keypress: return
+452.9797 	EXP 	landmarkName_text: autoDraw = False
+452.9797 	EXP 	text_5: autoDraw = False
+452.9797 	EXP 	imageLandmarks: image = 'images/Landmark15.png'
+452.9797 	EXP 	imageLandmarks: autoDraw = True
+457.9693 	EXP 	imageLandmarks: autoDraw = False
+457.9693 	EXP 	salience_text: autoDraw = True
+469.1613 	DATA 	Keypress: 2
+469.1754 	EXP 	salience_text: autoDraw = False
+469.1754 	EXP 	visualcomplexity_text: autoDraw = True
+469.5776 	DATA 	Keypress: 3
+469.5911 	EXP 	visualcomplexity_text: autoDraw = False
+469.5911 	EXP 	landmarkName_text: autoDraw = True
+469.5911 	EXP 	text_5: autoDraw = True
+499.1723 	DATA 	Keypress: w
+499.2831 	DATA 	Keypress: o
+500.2930 	DATA 	Keypress: backspace
+500.6112 	DATA 	Keypress: backspace
+502.1171 	DATA 	Keypress: w
+502.6997 	DATA 	Keypress: o
+502.7922 	DATA 	Keypress: o
+503.4549 	DATA 	Keypress: d
+503.6245 	DATA 	Keypress: e
+503.7345 	DATA 	Keypress: n
+503.9060 	DATA 	Keypress: space
+504.1107 	DATA 	Keypress: l
+504.7072 	DATA 	Keypress: o
+505.0670 	DATA 	Keypress: u
+505.1385 	DATA 	Keypress: n
+505.2782 	DATA 	Keypress: g
+505.4617 	DATA 	Keypress: e
+505.5527 	DATA 	Keypress: r
+505.8754 	EXP 	New trial (rep=0, index=11): {'landmark_images': 'images/Landmark9.png'}
+505.9005 	DATA 	Keypress: return
+505.9130 	EXP 	landmarkName_text: autoDraw = False
+505.9130 	EXP 	text_5: autoDraw = False
+505.9130 	EXP 	imageLandmarks: image = 'images/Landmark9.png'
+505.9130 	EXP 	imageLandmarks: autoDraw = True
+510.8921 	EXP 	imageLandmarks: autoDraw = False
+510.8921 	EXP 	salience_text: autoDraw = True
+512.6013 	DATA 	Keypress: 3
+512.6128 	EXP 	salience_text: autoDraw = False
+512.6128 	EXP 	visualcomplexity_text: autoDraw = True
+512.9421 	DATA 	Keypress: 3
+512.9543 	EXP 	visualcomplexity_text: autoDraw = False
+512.9543 	EXP 	landmarkName_text: autoDraw = True
+512.9543 	EXP 	text_5: autoDraw = True
+514.0672 	DATA 	Keypress: f
+514.1581 	DATA 	Keypress: l
+514.3044 	DATA 	Keypress: o
+514.4948 	DATA 	Keypress: w
+514.7206 	DATA 	Keypress: e
+514.8958 	DATA 	Keypress: r
+515.0369 	DATA 	Keypress: space
+517.9559 	DATA 	Keypress: b
+518.0631 	DATA 	Keypress: a
+518.2273 	DATA 	Keypress: s
+518.3785 	DATA 	Keypress: k
+518.5546 	DATA 	Keypress: e
+518.8275 	DATA 	Keypress: t
+519.2794 	EXP 	New trial (rep=0, index=12): {'landmark_images': 'images/Landmark2.png'}
+519.2929 	DATA 	Keypress: return
+519.3056 	EXP 	landmarkName_text: autoDraw = False
+519.3056 	EXP 	text_5: autoDraw = False
+519.3056 	EXP 	imageLandmarks: image = 'images/Landmark2.png'
+519.3056 	EXP 	imageLandmarks: autoDraw = True
+524.3111 	EXP 	imageLandmarks: autoDraw = False
+524.3111 	EXP 	salience_text: autoDraw = True
+525.6990 	DATA 	Keypress: 3
+525.7101 	EXP 	salience_text: autoDraw = False
+525.7101 	EXP 	visualcomplexity_text: autoDraw = True
+526.0712 	DATA 	Keypress: 4
+526.0829 	EXP 	visualcomplexity_text: autoDraw = False
+526.0829 	EXP 	landmarkName_text: autoDraw = True
+526.0829 	EXP 	text_5: autoDraw = True
+527.3499 	DATA 	Keypress: p
+527.7849 	DATA 	Keypress: backspace
+528.0191 	DATA 	Keypress: w
+528.3730 	DATA 	Keypress: i
+528.5259 	DATA 	Keypress: c
+528.6490 	DATA 	Keypress: k
+528.7872 	DATA 	Keypress: e
+528.9596 	DATA 	Keypress: r
+529.6674 	DATA 	Keypress: e
+529.8629 	DATA 	Keypress: d
+530.0995 	DATA 	Keypress: space
+531.7709 	DATA 	Keypress: backspace
+531.9429 	DATA 	Keypress: backspace
+532.1433 	DATA 	Keypress: backspace
+532.9306 	DATA 	Keypress: space
+533.7938 	DATA 	Keypress: p
+534.0770 	DATA 	Keypress: i
+534.7503 	DATA 	Keypress: c
+534.9463 	DATA 	Keypress: n
+535.1556 	DATA 	Keypress: i
+535.2778 	DATA 	Keypress: c
+535.4361 	DATA 	Keypress: space
+536.2163 	DATA 	Keypress: b
+536.3592 	DATA 	Keypress: a
+536.4916 	DATA 	Keypress: s
+536.5678 	DATA 	Keypress: k
+536.7716 	DATA 	Keypress: e
+536.9831 	DATA 	Keypress: t
+537.4246 	EXP 	New trial (rep=0, index=13): {'landmark_images': 'images/Landmark14.png'}
+537.4404 	DATA 	Keypress: return
+537.4533 	EXP 	landmarkName_text: autoDraw = False
+537.4533 	EXP 	text_5: autoDraw = False
+537.4533 	EXP 	imageLandmarks: image = 'images/Landmark14.png'
+537.4533 	EXP 	imageLandmarks: autoDraw = True
+542.4516 	EXP 	imageLandmarks: autoDraw = False
+542.4516 	EXP 	salience_text: autoDraw = True
+544.7330 	DATA 	Keypress: 2
+544.7451 	EXP 	salience_text: autoDraw = False
+544.7451 	EXP 	visualcomplexity_text: autoDraw = True
+545.5841 	DATA 	Keypress: 3
+545.5951 	EXP 	visualcomplexity_text: autoDraw = False
+545.5951 	EXP 	landmarkName_text: autoDraw = True
+545.5951 	EXP 	text_5: autoDraw = True
+550.6927 	DATA 	Keypress: w
+550.7860 	DATA 	Keypress: i
+550.9280 	DATA 	Keypress: c
+551.0832 	DATA 	Keypress: k
+551.1895 	DATA 	Keypress: e
+551.3622 	DATA 	Keypress: r
+551.7558 	DATA 	Keypress: space
+552.2885 	DATA 	Keypress: b
+552.4328 	DATA 	Keypress: o
+552.7549 	DATA 	Keypress: x
+553.7020 	EXP 	New trial (rep=0, index=14): {'landmark_images': 'images/Landmark11.png'}
+553.7130 	DATA 	Keypress: return
+553.7255 	EXP 	landmarkName_text: autoDraw = False
+553.7255 	EXP 	text_5: autoDraw = False
+553.7255 	EXP 	imageLandmarks: image = 'images/Landmark11.png'
+553.7255 	EXP 	imageLandmarks: autoDraw = True
+558.7278 	EXP 	imageLandmarks: autoDraw = False
+558.7278 	EXP 	salience_text: autoDraw = True
+586.3601 	DATA 	Keypress: 2
+586.3739 	EXP 	salience_text: autoDraw = False
+586.3739 	EXP 	visualcomplexity_text: autoDraw = True
+586.7877 	DATA 	Keypress: 3
+586.7998 	EXP 	visualcomplexity_text: autoDraw = False
+586.7998 	EXP 	landmarkName_text: autoDraw = True
+586.7998 	EXP 	text_5: autoDraw = True
+592.5384 	DATA 	Keypress: w
+592.6662 	DATA 	Keypress: o
+592.8078 	DATA 	Keypress: o
+592.9500 	DATA 	Keypress: d
+593.1041 	DATA 	Keypress: e
+593.2434 	DATA 	Keypress: n
+593.3871 	DATA 	Keypress: space
+597.7870 	DATA 	Keypress: b
+598.2003 	DATA 	Keypress: a
+598.3498 	DATA 	Keypress: s
+598.5261 	DATA 	Keypress: k
+598.6659 	DATA 	Keypress: e
+599.0635 	DATA 	Keypress: backspace
+600.5030 	DATA 	Keypress: backspace
+600.6759 	DATA 	Keypress: backspace
+600.8178 	DATA 	Keypress: backspace
+600.9710 	DATA 	Keypress: backspace
+601.1232 	DATA 	Keypress: backspace
+601.2772 	DATA 	Keypress: backspace
+601.4337 	DATA 	Keypress: backspace
+601.5876 	DATA 	Keypress: backspace
+601.7566 	DATA 	Keypress: backspace
+601.9130 	DATA 	Keypress: backspace
+602.0859 	DATA 	Keypress: backspace
+602.3028 	DATA 	Keypress: backspace
+602.9857 	DATA 	Keypress: g
+603.1423 	DATA 	Keypress: r
+604.8342 	DATA 	Keypress: backspace
+605.0041 	DATA 	Keypress: backspace
+605.5160 	DATA 	Keypress: b
+605.7396 	DATA 	Keypress: e
+605.8783 	DATA 	Keypress: i
+605.9981 	DATA 	Keypress: g
+606.2413 	DATA 	Keypress: e
+606.3861 	DATA 	Keypress: space
+607.1193 	DATA 	Keypress: b
+607.2278 	DATA 	Keypress: a
+607.3326 	DATA 	Keypress: s
+607.4360 	DATA 	Keypress: k
+607.6098 	DATA 	Keypress: e
+607.8007 	DATA 	Keypress: t
+607.9877 	DATA 	Keypress: return
+607.9990 	EXP 	landmarkName_text: autoDraw = False
+607.9990 	EXP 	text_5: autoDraw = False
+607.9990 	EXP 	text_2: autoDraw = True
+613.0038 	EXP 	text_2: autoDraw = False
+613.6007 	EXP 	window1: mouseVisible = True

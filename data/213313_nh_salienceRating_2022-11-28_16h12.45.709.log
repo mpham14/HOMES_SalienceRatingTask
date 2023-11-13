@@ -1,0 +1,90 @@
+5.3788 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.2651 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+14.6677 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.6687 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe759e354c0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe727d2b6a0>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.6691 	EXP 	window1: mouseVisible = True
+14.6727 	EXP 	window1: mouseVisible = False
+14.6728 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.6729 	EXP 	window1: recordFrameIntervals = False
+14.8361 	EXP 	window1: recordFrameIntervals = True
+15.0410 	WARNING 	t of last frame was 20.25ms (=1/49)
+15.4077 	WARNING 	t of last frame was 23.95ms (=1/41)
+15.5696 	WARNING 	t of last frame was 20.34ms (=1/49)
+15.6579 	WARNING 	t of last frame was 25.52ms (=1/39)
+16.3242 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.4347 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.1071 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the Nursing Home Experiment', units='height', win=Window(...), wrapWidth=1)
+20.1300 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.1358 	EXP 	Created salience_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='salience_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.1409 	EXP 	Created image_LandmarkA = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_LandmarkA', opacity=1.0, ori=0.0, pos=array([-0.25,  0.2 ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+20.1448 	EXP 	Created image_LandmarkB = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_LandmarkB', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+20.1490 	EXP 	Created image_LandmarkC = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_LandmarkC', opacity=1.0, ori=0.0, pos=array([0.25, 0.2 ]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+20.1544 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.1734 	EXP 	text: autoDraw = True
+25.1832 	EXP 	text: autoDraw = False
+25.1832 	EXP 	text_3: autoDraw = True
+42.2925 	EXP 	Imported landmark_stims.xlsx as conditions, 4 conditions, 3 params
+42.2936 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+42.2940 	EXP 	New trial (rep=0, index=0): {'landmark_imagesA': 'images/Landmark3.png', 'landmark_imagesB': 'images/Landmark7.png', 'landmark_imagesC': 'images/Landmark11.png'}
+42.3543 	DATA 	Keypress: space
+42.3688 	EXP 	text_3: autoDraw = False
+42.3688 	EXP 	image_LandmarkA: image = 'images/Landmark3.png'
+42.3688 	EXP 	image_LandmarkB: image = 'images/Landmark7.png'
+42.3688 	EXP 	image_LandmarkC: image = 'images/Landmark11.png'
+42.3688 	EXP 	salience_text: autoDraw = True
+42.3688 	EXP 	image_LandmarkA: autoDraw = True
+42.3688 	EXP 	image_LandmarkB: autoDraw = True
+42.3688 	EXP 	image_LandmarkC: autoDraw = True
+45.2540 	DATA 	Keypress: 2
+45.2713 	EXP 	New trial (rep=0, index=1): {'landmark_imagesA': 'images/Landmark1.png', 'landmark_imagesB': 'images/Landmark5.png', 'landmark_imagesC': 'images/Landmark9.png'}
+45.3158 	EXP 	salience_text: autoDraw = False
+45.3158 	EXP 	image_LandmarkA: autoDraw = False
+45.3158 	EXP 	image_LandmarkB: autoDraw = False
+45.3158 	EXP 	image_LandmarkC: autoDraw = False
+45.3158 	EXP 	image_LandmarkA: image = 'images/Landmark1.png'
+45.3158 	EXP 	image_LandmarkB: image = 'images/Landmark5.png'
+45.3158 	EXP 	image_LandmarkC: image = 'images/Landmark9.png'
+45.3158 	EXP 	salience_text: autoDraw = True
+45.3158 	EXP 	image_LandmarkA: autoDraw = True
+45.3158 	EXP 	image_LandmarkB: autoDraw = True
+45.3158 	EXP 	image_LandmarkC: autoDraw = True
+47.1004 	EXP 	New trial (rep=0, index=2): {'landmark_imagesA': 'images/Landmark2.png', 'landmark_imagesB': 'images/Landmark6.png', 'landmark_imagesC': 'images/Landmark10.png'}
+47.1294 	DATA 	Keypress: 3
+47.1425 	EXP 	salience_text: autoDraw = False
+47.1425 	EXP 	image_LandmarkA: autoDraw = False
+47.1425 	EXP 	image_LandmarkB: autoDraw = False
+47.1425 	EXP 	image_LandmarkC: autoDraw = False
+47.1425 	EXP 	image_LandmarkA: image = 'images/Landmark2.png'
+47.1425 	EXP 	image_LandmarkB: image = 'images/Landmark6.png'
+47.1425 	EXP 	image_LandmarkC: image = 'images/Landmark10.png'
+47.1425 	EXP 	salience_text: autoDraw = True
+47.1425 	EXP 	image_LandmarkA: autoDraw = True
+47.1425 	EXP 	image_LandmarkB: autoDraw = True
+47.1425 	EXP 	image_LandmarkC: autoDraw = True
+48.6839 	EXP 	New trial (rep=0, index=3): {'landmark_imagesA': 'images/Landmark4.png', 'landmark_imagesB': 'images/Landmark8.png', 'landmark_imagesC': 'images/Landmark12.png'}
+48.7131 	DATA 	Keypress: 4
+48.7260 	EXP 	salience_text: autoDraw = False
+48.7260 	EXP 	image_LandmarkA: autoDraw = False
+48.7260 	EXP 	image_LandmarkB: autoDraw = False
+48.7260 	EXP 	image_LandmarkC: autoDraw = False
+48.7260 	EXP 	image_LandmarkA: image = 'images/Landmark4.png'
+48.7260 	EXP 	image_LandmarkB: image = 'images/Landmark8.png'
+48.7260 	EXP 	image_LandmarkC: image = 'images/Landmark12.png'
+48.7260 	EXP 	salience_text: autoDraw = True
+48.7260 	EXP 	image_LandmarkA: autoDraw = True
+48.7260 	EXP 	image_LandmarkB: autoDraw = True
+48.7260 	EXP 	image_LandmarkC: autoDraw = True
+49.6019 	DATA 	Keypress: 3
+49.6140 	EXP 	salience_text: autoDraw = False
+49.6140 	EXP 	image_LandmarkA: autoDraw = False
+49.6140 	EXP 	image_LandmarkB: autoDraw = False
+49.6140 	EXP 	image_LandmarkC: autoDraw = False
+49.6140 	EXP 	text_2: autoDraw = True
+54.6180 	EXP 	text_2: autoDraw = False
+55.1765 	EXP 	window1: mouseVisible = True
